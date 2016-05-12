@@ -1,0 +1,354 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* ESTILOS GLOBALES */
+div, article, section, footer, nav, aside, head{
+box-sizing: border-box;
+}
+body{
+font-size: 10px;
+box-sizing: border-box;
+background-color: #FFF;
+width: 100%;
+}
+section{
+width: 100%;
+}
+h1, h2, h3, h4, h5 {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+margin-bottom:10px;
+letter-spacing: 1px;
+}
+h1{
+font-size: 4em;
+line-height: 2em;
+}
+h2{
+font-size: 4em;
+line-height: 2em;
+}
+h4{
+margin: 15px 0 15px;
+}
+h5{
+font-weight: 400;
+}
+h6 {
+font-family: 'Raleway', sans-serif;
+margin-bottom:10px;
+letter-spacing: 1px;
+}
+h3{
+font-weight: 400;
+font-size: 3em;
+}
+p{
+font-family: 'Raleway', sans-serif;
+font-size: 1.75em;
+line-height: 2em;
+font-weight: 400;
+}
+ul{
+list-style: none;
+display: inline-block;
+float: right;
+margin-top: 10px;
+}
+hr{
+margin: 25% 0 15% 0;
+text-align: center;
+}
+a{
+text-decoration: none;
+}
+.floatleft{
+float: left;
+}
+.container{
+max-width:1172px;
+margin:auto;
+}
+.fullwidth{
+max-width: 100%;
+text-align: center;
+margin: auto;
+}
+.nav{
+max-width:1172px;
+margin:auto;
+}
+.navcontainer{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.inline{
+display: inline-block;
+}
+/* ESTILOS DE TIPOGRAFIA */
+.bold{
+font-weight: bold;
+font-weight: 700;
+}
+.italic{
+font-style: italic;
+}
+.sup {
+vertical-align: super;
+font-size: small;
+}
+.nospace{
+margin: 0px 0px 0px 0px;
+}
+.linea{
+line-height: normal;
+}
+.uppercase{
+text-transform: uppercase;
+}
+.pchico{
+font-size: 1.126em;
+}
+.grey{
+color: #bdbdbf;
+}
+.black{
+color: #1e435c;
+}
+.white{
+color: #FFF;
+}
+.cyan{
+color: #00aeef;
+}
+.yellow{
+color: #fff200;
+}
+.orange{
+color: #f58220;
+}
+.red{
+color: #ed1c24;
+}
+/* FIN ESTILOS DE TIPOGRAFIA */
+nav ul li{
+font-family: 'Raleway', sans-serif;
+display: inline-block;
+text-transform: uppercase;
+margin-right: 25px;
+}
+footer ul li{
+font-family: 'Raleway', sans-serif;
+display: inline-block;
+text-transform: uppercase;
+margin-right: 25px;
+}
+/*ESTILOS PARA SECTIONS*/
+.section1{
+height: 690px;
+margin: auto;
+background-image: url("assets/indexbanner-bg3.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-bottom: 10%;
+}
+.section2{
+height: auto;
+margin: auto;
+background: #FFF;
+background-position: center;
+margin-bottom: 5%;
+}
+.section3{
+height: auto;
+margin: auto;
+background: #FFF;
+margin-bottom: 40%;
+text-align: center;
+}
+.section4{
+height: 690px;
+margin: auto auto 27% auto;
+background-image: url("assets/pricing-bg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-top: 16%;
+text-align: center;
+}
+.pricingtable{
+width: 22%;
+background: #FFF;
+box-shadow: 0px 0px 15px #BBB;
+padding: 5% 3% 5% 3%;
+display: inline-block;
+margin: 10% 1% 0 1%;
+}
+.section5{
+height: 125px;
+background: #142e3f;
+text-align: center;
+padding: 3.2% 3.2% 3.2% 3.2%;
+}
+.cajachica{
+text-align: center;
+width: 230px;
+}
+.headermain{
+max-width: 480px;
+margin-left: 93px;
+padding-top: 209px;
+}
+.buscador{
+max-width:1172px;
+margin:auto;
+}
+/* ESTILOS DE FORMULARIO Y BOTONES*/
+input[type=button] {
+font-family: 'Raleway', sans-serif;
+color: #fff;
+background-color: #00adf2;
+font-size: 1em;
+text-transform: uppercase;
+width: 160px;
+height: 100px;
+border: 0px;
+float: right;
+cursor: pointer;
+font-weight: 700;
+letter-spacing: 2px;
+}
+input[type=search] {
+position: relative;
+box-sizing: border-box;
+height: 100px;
+width: 1012px;
+padding: 20px;
+font-family: 'Raleway', sans-serif;
+font-size: 2em;
+}
+.containerbuscador{
+max-width: 1172px;
+margin: auto;
+margin-top: 50%;
+margin-top: 265px;
+}
+/*MISCELANEAS*/
+.widdot{
+margin: 0 1.9% 10% 1.9%;
+text-align: center;
+}
+.threedot{
+margin: 0 1.9% 2% 1.9%;
+text-align: center;
+}
+.listas{
+margin-top:5%;
+}
+.divlista{
+display: inline-block;
+width: 50%;
+margin-bottom: 16%;
+}
+.imglistadcha{
+float: right;
+margin: 0 6% 0 6%
+}
+.imglistaizq{
+float: left;
+margin: 0 6% 0 6%
+}
+.lista-izquierda{
+display: inline-block;
+text-align: right;
+width: 365px;
+float: left;
+margin-top: 5%;
+}
+.lista-derecha{
+display: inline-block;
+text-align: left;
+width: 365px;
+float: left;
+margin-top: 5%;
+}
+.iphone{
+float: left;
+margin: 0 6% 0 6%;
+}
+.tabla{
+width: 75%;
+text-align: left;
+margin: auto;
+}
+.botontabla{
+border: none;
+border-radius: 3%;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+color: #fff;
+background-color: #00adf2;
+font-size: 1em;
+text-transform: uppercase;
+cursor: pointer;
+font-weight: 700;
+letter-spacing: 3px;
+margin: 20% auto 0% auto;
+width: 100%;
+}
+.footercontainer{
+padding-top: 30px;
+padding-bottom: 30px;
+max-width:1172px;
+margin:auto;
+}
+.footer{
+width: 100%;
+margin:auto;
+background: #091722;
+}
