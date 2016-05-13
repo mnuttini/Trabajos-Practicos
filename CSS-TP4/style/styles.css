@@ -1,0 +1,170 @@
+/* --------------------RESET CSS-------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+width: 100%;
+height: 100%;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* --------------------RESET CSS-------------------- */
+div, article, section, footer, nav, aside, head{
+box-sizing: border-box;
+}
+body{
+font-size: 10px;
+box-sizing: border-box;
+text-align: center;
+}
+hr{
+margin: 25% 0 15% 0;
+text-align: center;
+}
+a{
+text-decoration: none;
+}
+p{
+	display: inline-flex;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.75em;
+	line-height: 2em;
+	font-weight: 400;
+}
+/* --------------------CONTENEDORES-------------------- */
+.navbar{
+	width: 84%;
+	display: flex;
+	flex-flow: row;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin: auto;
+ 	padding: 2% 0 2% 0;
+}
+.s1{
+	margin: auto;
+	background: url("file:///C:/Users/Windows%207/Desktop/CODERHOUSE/TRABAJOS%20PRACTICOS/TPs/CSS-TP3/style/assets/indexbanner-bg3.jpg");
+    height: 690px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: left;
+    padding: 13% 50% 0 14%;
+}
+.container{
+width:84%;
+margin:auto;
+}
+.nomargin{
+	margin: 0;
+}
+.s2{
+
+}
+.s3{
+
+}
+.s4{
+
+}
+.footer{
+
+}
+/* --------------------TIPOGRAFIA-------------------- */
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Raleway', sans-serif;
+letter-spacing: 1px;
+line-height: normal;
+}
+h1{
+	font-size: 4em;
+	line-height: 3em;
+}
+.bold{
+font-weight: bold;
+font-weight: 700;
+}
+.italic{
+font-style: italic;
+}
+.sup {
+vertical-align: super;
+font-size: small;
+}
+.linea{
+line-height: normal;
+}
+.uppercase{
+text-transform: uppercase;
+}
+.grey{
+color: #bdbdbf;
+}
+.black{
+color: #1e435c;
+}
+.white{
+color: #FFF;
+}
+.cyan{
+color: #00aeef;
+}
+.yellow{
+color: #fff200;
+}
+.orange{
+color: #f58220;
+}
+.red{
+color: #ed1c24;
+}
+/* --------------------ELEMENTOS FLOTADOS-------------------- */
+.buscador{
+
+}
+.iphone{
+
+}
+/* --------------------NAV-------------------- */
+li{
+font-family: 'Raleway', sans-serif;
+display: inline-block;
+text-transform: uppercase;
+margin-right: 25px;
+}
