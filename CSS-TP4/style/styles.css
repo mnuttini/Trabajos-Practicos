@@ -61,7 +61,6 @@ a{
 text-decoration: none;
 }
 p{
-	display: inline-flex;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.75em;
 	line-height: 2em;
@@ -69,7 +68,7 @@ p{
 }
 /* --------------------CONTENEDORES-------------------- */
 .navbar{
-	width: 84%;
+	width: 1280px;
 	display: flex;
 	flex-flow: row;
  	justify-content: space-between;
@@ -79,33 +78,159 @@ p{
 }
 .s1{
 	margin: auto;
-	background: url("file:///C:/Users/Windows%207/Desktop/CODERHOUSE/TRABAJOS%20PRACTICOS/TPs/CSS-TP3/style/assets/indexbanner-bg3.jpg");
-    height: 690px;
+	background: url("../assets/indexbanner-bg3.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     text-align: left;
-    padding: 13% 50% 0 14%;
 }
 .container{
-width:84%;
-margin:auto;
+	width:1280px;
+	max-width: 1280px;
+	margin:auto;
+}
+.container-s1{
+	width:1280px;
+	max-width: 1280px;
+	margin:auto;
+	padding: 182px 682px 260px 148px;
 }
 .nomargin{
 	margin: 0;
 }
 .s2{
-
+	margin: auto;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+.container-s2{
+	display: flex;
+    flex-flow: row;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	margin: auto;
+    width: 1280px;
+}
+.article-s2{
+	width: 250px;
+	max-width:250px;
+	text-align: center;
+}
+.h4-s2{
+	margin: 25px 0 25px;
+}
+.threedot{
+	margin: 80px 0 40px;
 }
 .s3{
-
+	margin: auto;
+    text-align: center;
+}
+.container-s3{
+	display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+    max-width: 1280px;
+    padding: 70px 0px 70px 0px;
+}
+.divlista{
+	display: inline-block;
+	width: 265px;
+}
+.imglistadcha{
+	margin: 30px 0px 30px 20px;
+}
+.imglistaizq{
+	margin: 30px 20px 30px 0px;
+}
+.lista-izquierda{
+	display: inline-block;
+	text-align: right;
+	width: 365px;
+	margin-top: 70px;
+}
+.lista-derecha{
+	display: inline-block;
+	text-align: left;
+	width: 365px;
+	margin-top: 70px;
+}
+.iphone{
+	margin: 0px;
 }
 .s4{
-
+	margin: auto;
+    text-align: center;
+    background: url("../assets/pricing-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.container-s4{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1280px;
+    padding: 70px 0px 70px 0px;
+}
+.tabla{
+width: 75%;
+text-align: left;
+margin: auto;
+}
+.pricingtable{
+    width: 270px;
+    max-width: 270px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px #BBB;
+    padding: 5% 3% 5% 3%;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+.botontabla{
+border: none;
+border-radius: 3%;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+color: #fff;
+background-color: #00adf2;
+font-size: 1em;
+text-transform: uppercase;
+cursor: pointer;
+font-weight: 700;
+letter-spacing: 3px;
+margin: 20% auto 0% auto;
+width: 100%;
+}
+.container-s5{
+height: 125px;
+background: #142e3f;
+text-align: center;
+padding: 3.2% 3.2% 3.2% 3.2%;
 }
 .footer{
-
+width: 100%;
+margin:auto;
+background: #091722;
 }
+.footercontainer{
+	width: 1260px;
+	display: flex;
+	flex-flow: row;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin: auto;
+ 	padding: 2% 0 2% 0;
+}
+
 /* --------------------TIPOGRAFIA-------------------- */
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Raleway', sans-serif;
@@ -116,55 +241,98 @@ h1{
 	font-size: 4em;
 	line-height: 3em;
 }
+h2{
+font-size: 4em;
+line-height: 2em;
+}
+h3{
+font-weight: 400;
+font-size: 2.5em;
+}
+h5{
+font-weight: 400;
+}
 .bold{
-font-weight: bold;
-font-weight: 700;
+	font-weight: bold;
+	font-weight: 700;
 }
 .italic{
-font-style: italic;
+	font-style: italic;
 }
 .sup {
-vertical-align: super;
-font-size: small;
+	vertical-align: super;
+	font-size: small;
+}
+.nospace{
+	margin: 0px 0px 0px 0px;
 }
 .linea{
-line-height: normal;
+	line-height: normal;
 }
 .uppercase{
-text-transform: uppercase;
+	text-transform: uppercase;
+}
+.pchico{
+	font-size: 1.126em;
 }
 .grey{
-color: #bdbdbf;
+	color: #bdbdbf;
 }
 .black{
-color: #1e435c;
+	color: #1e435c;
 }
 .white{
-color: #FFF;
+	color: #FFF;
 }
 .cyan{
-color: #00aeef;
+	color: #00aeef;
 }
 .yellow{
-color: #fff200;
+	color: #fff200;
 }
 .orange{
-color: #f58220;
+	color: #f58220;
 }
 .red{
-color: #ed1c24;
-}
-/* --------------------ELEMENTOS FLOTADOS-------------------- */
-.buscador{
-
-}
-.iphone{
-
+	color: #ed1c24;
 }
 /* --------------------NAV-------------------- */
 li{
-font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 25px;
+	}
+/* ESTILOS DE FORMULARIO Y BOTONES*/
+	input[type=button] {
+	font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: #00adf2;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 160px;
+    height: 100px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: right;
+}
+input[type=search] {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    display: inline-block;
+    width: 1120px;
+}
+.nospace{
+margin: 0px 0px 0px 0px;
+}
+.inline{
 display: inline-block;
-text-transform: uppercase;
-margin-right: 25px;
+}
+.floatleft{
+float: left;
 }
