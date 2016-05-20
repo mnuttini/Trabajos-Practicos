@@ -44,6 +44,25 @@ table {
 border-collapse: collapse;
 border-spacing: 0;
 }
+textarea{
+    resize: none;
+    padding: 20px;
+    width: 585px;
+    max-width: 615px;
+    height: 144px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 45px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+form{
+	display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1280px;
+    text-align: left;
+}
 /* --------------------RESET CSS-------------------- */
 div, article, section, footer, nav, aside, head{
 box-sizing: border-box;
@@ -80,9 +99,16 @@ p{
 	margin: auto;
 	background: url("../assets/indexbanner-bg3.jpg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top center;
     background-size: cover;
-    text-align: left;
+    background-attachment: all;
+    text-align: center;
+    height: 700px;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .container{
 	width:1280px;
@@ -94,6 +120,7 @@ p{
 	max-width: 1280px;
 	margin:auto;
 	padding: 182px 682px 260px 148px;
+	text-align: left;
 }
 .nomargin{
 	margin: 0;
@@ -101,20 +128,22 @@ p{
 .s2{
 	margin: auto;
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 75px 0 0 0;
 }
 .container-s2{
 	display: flex;
     flex-flow: row;
- 	justify-content: space-around;
- 	align-items: center;
- 	margin: auto;
-    width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1280px;
+    flex-wrap: wrap;	
 }
 .article-s2{
 	width: 250px;
 	max-width:250px;
 	text-align: center;
+	margin: 25px 0;
 }
 .h4-s2{
 	margin: 25px 0 25px;
@@ -194,7 +223,7 @@ margin: auto;
 }
 .botontabla{
 border: none;
-border-radius: 3%;
+border-radius: 8px;
 padding: 15px 32px;
 text-align: center;
 text-decoration: none;
@@ -209,6 +238,25 @@ font-weight: 700;
 letter-spacing: 3px;
 margin: 20% auto 0% auto;
 width: 100%;
+}
+.botontabla-sinesp{
+	border: none;
+    border-radius: 4px;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: #00adf2;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 auto 60px auto;
+    width: auto;
+    display: block;
 }
 .container-s5{
 height: 125px;
@@ -230,7 +278,21 @@ background: #091722;
  	margin: auto;
  	padding: 2% 0 2% 0;
 }
-
+.s1b{
+	margin: auto;
+	background: url("../assets/indexbanner-bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: all;
+    text-align: center;
+ 	height: 525px;
+ 	max-height: 525px;
+ 	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 /* --------------------TIPOGRAFIA-------------------- */
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Raleway', sans-serif;
@@ -327,6 +389,18 @@ input[type=search] {
     display: inline-block;
     width: 1120px;
 }
+input[type=text] {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    display: block;
+    width: 630px;
+    border-radius: 8px;
+    border-style: ridge;
+    margin-bottom: 18px;
+}
 .nospace{
 margin: 0px 0px 0px 0px;
 }
@@ -335,4 +409,21 @@ display: inline-block;
 }
 .floatleft{
 float: left;
+}
+.floatright{
+	float: right;
+}
+.inputcontainer{
+    display: inline-block;
+    text-align: left;
+    padding: 45px 0;
+
+}
+.formcontainer{
+	max-width: 1280px;
+    text-align: center;
+    margin: auto;
+}
+.paddingform{
+	padding-top: 50px;
 }
